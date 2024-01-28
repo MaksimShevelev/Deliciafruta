@@ -58,7 +58,9 @@ h1, h2, p {
     color: rgb(124, 75, 151);
 }
 
-
+.todasSecciones {
+    margin-top: 0;
+}
 
 .todasSecciones h2 {
     color: rgb(94, 176, 48);
@@ -71,6 +73,9 @@ h1, h2, p {
     background-color: rgb(222, 244, 206);
 }
 
+#carouselExampleIndicators {
+    background-color: rgb(222, 244, 206);
+}
 
 .event img {
     max-width: 100%;
