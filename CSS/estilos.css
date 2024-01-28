@@ -756,4 +756,15 @@ section, img, div {
         max-width: 50%;
         height: auto;
     }
+
+    .galeria {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .galeria > div {
+        flex: none; 
+        width: 100%; 
+        margin-bottom: 15px; 
+    }
 }
