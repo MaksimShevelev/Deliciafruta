@@ -322,7 +322,6 @@ h4 {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 15px;
-    background-color: rgb(222, 244, 206);
 }
 
 .galeria {
@@ -337,9 +336,15 @@ h4 {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.cuerpo {
     background-color: rgb(222, 244, 206);
 }
 
+.footer {
+    margin-top: 20px;
+}
 
 .footer p {
     color: rgb(94, 176, 48);
