@@ -14,10 +14,6 @@
     overflow-x: hidden;
 }
 
-main {
-    margin-top: 120px;
-}
-
 body,
 head,
 header {
@@ -26,8 +22,9 @@ header {
 
 .navbar {
     background-color: rgb(241, 247, 247);
+    border: 0.1px solid rgb(124, 75, 151);
+    border-radius: 0 0 10px 10px;
 }
-
 
 .navbar-nav .nav-link {
     color: rgb(124, 75, 151);
@@ -401,6 +398,10 @@ section, img, div {
         text-align: center;
     }
 
+    main {
+        margin-top: 140px;
+    }
+
     .navbar p a {
         background: url(../media/logo2.png) center center no-repeat;
         background-size: cover;
@@ -408,6 +409,8 @@ section, img, div {
         height: 80px;
         display: inline-block;
         font-size: 0;
+        margin-top: 15px;
+        margin-bottom: 0;
     }
 
     .app,
@@ -532,12 +535,18 @@ section, img, div {
         text-align: center;
     }
 
+    main {
+        margin-top: 120px;
+    }
+
     .navbar p a {
         background: url(../media/logo2.png) center center no-repeat;
         background-size: cover;
         width: 60px;
         height: 60px;
         display: inline-block;
+        margin-top: 15px;
+        margin-bottom: 0;
         font-size: 0;
     }
 
@@ -682,6 +691,10 @@ section, img, div {
         margin-bottom: 10px;
     }
 
+    main {
+        margin-top: 100px;
+    }
+
     .navbar p a {
         background: url(../media/logo2.png) center center no-repeat;
         background-size: cover;
@@ -690,6 +703,7 @@ section, img, div {
         display: inline-block;
         font-size: 0;
         margin-top: 15px;
+        margin-bottom: 0;
     }
 
     .app,
