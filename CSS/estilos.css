@@ -20,6 +20,11 @@ header {
     background-color: rgb(241, 247, 247);
 }
 
+.row,
+.event {
+    margin-top: 0;
+}
+
 .navbar {
     background-color: rgb(241, 247, 247);
     border: 0.1px solid rgb(124, 75, 151);
